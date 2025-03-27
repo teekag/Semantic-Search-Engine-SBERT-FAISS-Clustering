@@ -16,7 +16,7 @@ Used for document discovery, B2B intelligence, and knowledge base retrieval. The
 - 📎 Plug-and-play with any SBERT-compatible model (MiniLM, MPNet, etc.)
 
 <div align="center">
-  <img src="https://miro.medium.com/max/1400/1*FpnHmhUlUrz0GuKOJBpG9g.png" alt="Semantic Search" width="700"/>
+  <img src="https://raw.githubusercontent.com/UKPLab/sentence-transformers/master/docs/img/SemanticSearch.png" alt="Semantic Search" width="700"/>
   <p><em>Illustration of semantic search vs. traditional keyword search</em></p>
 </div>
 
