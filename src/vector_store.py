@@ -268,7 +268,8 @@ class VectorStore:
             vector_store.index = faiss.index_cpu_to_gpu(faiss.StandardGpuResources(), 0, vector_store.index)
         
         # Set the documents
-        vector_store.documents = metadata["documents"]
+        if "documents" in metadata:
+            vector_store.documents = metadata["documents"]
         
         print(f"Loaded vector store from {index_path} with {len(vector_store.documents)} documents")
         return vector_store

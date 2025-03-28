@@ -51,15 +51,14 @@ data/processed/*
 outputs/*
 !outputs/.gitkeep
 
-# FAISS indices (can be large)
+# FAISS indices
 *.index
 
-# Model files
+# Pickle files
 *.pkl
-*.bin
-*.pt
-*.pth
 
 # Logs
-logs/
 *.log
+
+# Cache
+.cache/
